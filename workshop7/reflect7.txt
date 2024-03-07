@@ -1,0 +1,38 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #7
+Full Name  : Ehimwenma Larry Okuonghae
+Student ID#: 145203238
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1. Yes I was successful in coding non-repetitive sections of logic in the game play portion of this workshop. I made use of loops and arrays to manage the game board, player history, and game state. The game loop handles player moves and updates the board and player statistics effectively. This reduces redundancy and ensures that the game mechanics are implemented efficiently. 
+
+2. The use of structures in the code simplifies the program by grouping related data together. For example, the PlayerInfo and GameInfo structures organize player and game information. This improves organization and readability, as you can access data using a dot (e.g., player.lives). Without those structures, you would have manage a lot of individual variables for the player and game info (i.e lives symbol, bomb positions would have different variables), leading to a more complex and error-prone program Structures make the code more efficient, maintainable, and easier to understand.  It allows for more efficient data management.
+
+
+
+3. while (player.lives > 0 && game.moveLimit > 0)
+  {
+
+    valid = 1;
+    if (nextMove != -1)
+    {
+      printf("\n  ");
+      for (i = 0; i < game.pathLength && valid != 0; i++)
+      {
+        if (i == nextMove - 1)
+        {
+          printf("%c", player.symbol);
+          valid = 0;
+        }
+        else
+        {
+          printf(" ");
+        }
+      }
+    }
