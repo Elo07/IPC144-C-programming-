@@ -1,0 +1,19 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #6
+Full Name  : Ehimwenma Larry Okuonghae
+Student ID#: 145203238
+Email      : elokuonghae@myseneca.ca
+Section    : NGG
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1. Although we can make any one of them behave the same way under certain circumstances, one of three types of iteration can be more convenient depending on the type of project you working on. In this workshop I used a do while loop because I needed to make sure that a block of code is executed at least once and then is be repeated based on the condition I provided. Typically when working with arrays a for loop is favoured because it allows us to control the index and iterate over the elements of the array.it makes it easier to manage the iteration process.
+
+2.For syntactic errors I read my code line by line to check for missing semi-colons, parentheses, I also compiled the code and the problem section on my visual studio and corrected any errors it showed I had in my code. For semantic errors I reviewed the  logic and compared with the expected out. I also used the debugging tools in mi IDE to step through my code to find the source of the problem. These processes helped me test and debug my code.
+
+3.i downloaded my output.txt and the w6p2_master_output.txt, I compared both output files and after finding the error in my txt I went on my visual studio code and ran the code again and found that it was an error from the user input. i resubmitted my work and made sure i put in the right input
