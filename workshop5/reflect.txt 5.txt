@@ -1,0 +1,27 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #5
+Full Name  : Ehimwenma Larry Okuonghae
+Student ID#: 145203238
+Email      : elokuonghae@myseneca.ca
+Section    : NGG
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1. 
+a)Readability and Maintain the code
+In my code I defined MIN_YEAR, MAX_YEAR, and LOG_DAYS as macros with meaningful names to enhance readability and make it clear what they represent. JAN and DEC are constant values with self describing names, improving code readability. 
+b)Easy to update
+If the need to change the MIN_YEAR, MAX_YEAR, and LOG_DAYS comes up. you only need to update the value in one place. This ensures consistency and makes it easy to maintain the code.for instance if I wanted to update the MIN_YEAR from 2012 to 2010. I'd only have to make the change at the MIN_YEAR macro rather than trying to change it through out the code
+c)For consistency and avoiding errors
+Using macros and variables helps avoids errors in code.for example the macros MIN_YEAR and MAX_YEAR ensures that the user enters year that falls within the specified range.this helps avoid logical errors.
+
+
+2.
+a)We do not include additional logic that sums and performs the average to maintain a clear distinction between the tasks of validation and calculation.it would complicated and hard to understand the code. In this code the input validation is different from the rating calculations. You can change the calculations without affecting the logic validation.
+
+b)The sum and average logic is placed outside of any validation routine because it allows easy error correction of the code.for example in this workshop the validation routine would display the error messages if the user enters an invalid rating without interfering with the calculation process in the code allowing the user to input valid rating before doing the calculations.
