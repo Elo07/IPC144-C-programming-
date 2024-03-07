@@ -1,0 +1,19 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #4
+Full Name  : Ehimwenma Larry Okuonghae
+Student ID#: 145203238
+Email      : elokuonghae@myseneca.ca
+Section    : NGG
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1. I ensured my code was easy to read and maintain by using self describing variables and using proper indentation to show the nested blocks ensuring the code has a more organized and concise structure.
+
+2.If nesting were not possible the code for this workshop would be more harder to read and complex more variables would be needed to track the code making it harder to understand and maintain.Also the chances of having errors in the code would be higher.Nesting allows a more organized and concise structure 
+
+3.it is inefficient to use a series of “if” optional path constructs because it would check every other condition one by one even if a valid condition had already been met but with “if/else if…” alternative path logic the program would skip the rest of the conditions once a valid one is found making it efficient and not time wasting.
