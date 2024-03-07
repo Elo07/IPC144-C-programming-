@@ -1,0 +1,21 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #8
+Full Name  : Ehimwenma Larry Okuonghae
+Student ID#: 145203238
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1.Having helper functions that return values in two different ways (via an argument and/or by return) increases flexibility and usability.it allows users to choose the method that fits their need.Some users may prefer obtaining the result directly through the return value, while others users may find it more convenient to receive the result via an argument. One negative reason why having functions designed to work in this way may not be desirable is that it might lead to confusion. Users might not be clear about whether they should use the return value or the argument, leading to potential errors in their code.
+
+
+2.The calculateReportData function demonstrates less than perfect cohesion because it combines multiple responsibilities, such as conversion, calculation, and structuring the result. I would split it into multiple functions and each function would have a single responsibility for better cohesion.
+The start function has demonstrates coupling that could be improved as it directly handles both user input processing and display, making it tightly connected and easy to transfer control data to any other functions. It would be beneficial to separate these concerns to improve modularity. I would create separate functions for obtaining user input and displaying results.
+
+
+
+3. Passing structures to functions allows for the efficient grouping of related data, enhancing code organization and readability.Based on this week's readings passing this data to functions by address would make it more efficient. It avoids copying all member values, saving time and space especially in cases where a member is an array with a large number of elements. The displayCatfoodData function could be improved by using a struct CatFoodInfo parameter instead of individual parameters. This would make the function easier to maintain.
